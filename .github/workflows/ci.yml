@@ -1,0 +1,40 @@
+on:
+  push:
+    branches:
+      - develop
+      - master
+    tags:
+      - '*'
+name: Deploy app on push (Dev)
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Install PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: 8.0
+        ini-file: development
+    - name: Cache Composer packages
+      id: composer-cache
+      uses: actions/cache@v4
+      with:
+        path: vendor
+        key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+        restore-keys: |
+            ${{ runner.os }}-php-
+
+    - name: Install dependencies
+      run: composer install  --no-dev -o --no-scripts
+        
+    - name: Sync files (backend)
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        protocol: ftps
+        server: ${{ secrets.ftp_host }}
+        username: ${{ secrets.ftp_username }}
+        password: ${{ secrets.ftp_password }}
+        server-dir: www/bot/github-hook-notify/

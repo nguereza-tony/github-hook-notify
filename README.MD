@@ -5,7 +5,7 @@
 [![Latest Stable Version](https://poser.pugx.org/nguereza-tony/github-hook-notify/v)](https://packagist.org/packages/nguereza-tony/github-hook-notify)
 [![Latest Unstable Version](https://poser.pugx.org/nguereza-tony/github-hook-notify/v/unstable)](https://packagist.org/packages/nguereza-tony/github-hook-notify)
 [![Total Downloads](https://poser.pugx.org/nguereza-tony/github-hook-notify/downloads)](https://packagist.org/packages/nguereza-tony/github-hook-notify)
-[![License](https://poser.pugx.org/nguereza-tony/github-hook-notify/license)](https://packagist.org/packages/nguereza-tony/github-hook-notify)  
+[![License](https://poser.pugx.org/nguereza-tony/github-hook-notify/license)](https://packagist.org/packages/nguereza-tony/github-hook-notify)
 ![Tests](https://github.com/nguereza-tony/github-hook-notify/actions/workflows/ci.yml/badge.svg)
 
 ### Requirements 
