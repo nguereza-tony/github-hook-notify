@@ -1,0 +1,265 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "863203849ebeaea5d77fb6bad1e84c67",
+    "packages": [
+        {
+            "name": "nguereza-tony/telegram-github-hook",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nguereza-tony/telegram-github-hook.git",
+                "reference": "3ea3067e0be3fac0271045d9134b197d5127d3c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nguereza-tony/telegram-github-hook/zipball/3ea3067e0be3fac0271045d9134b197d5127d3c3",
+                "reference": "3ea3067e0be3fac0271045d9134b197d5127d3c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8",
+                "platine-php/config": "^2.0",
+                "platine-php/http": "^2.0",
+                "platine-php/stdlib": "^2.0"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "@stable",
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^9.6",
+                "platine-php/dev": "^2.0",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Quantum\\Hub\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "NGUEREZA Tony",
+                    "email": "nguerezatony@gmail.com",
+                    "homepage": "https://www.platine-php.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "This library is used to notify telegram chat on Github Webhook for push event",
+            "keywords": [
+                "HOOK",
+                "application",
+                "development",
+                "framework",
+                "github",
+                "php",
+                "platine",
+                "telegram",
+                "website"
+            ],
+            "support": {
+                "issues": "https://github.com/nguereza-tony/telegram-github-hook/issues",
+                "source": "https://github.com/nguereza-tony/telegram-github-hook"
+            },
+            "time": "2025-10-05T04:36:51+00:00"
+        },
+        {
+            "name": "platine-php/config",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/platine-php/config.git",
+                "reference": "0ff8100f00430702adee797c7809039fafdcf4b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/platine-php/config/zipball/0ff8100f00430702adee797c7809039fafdcf4b9",
+                "reference": "0ff8100f00430702adee797c7809039fafdcf4b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8",
+                "platine-php/stdlib": "^2.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.6",
+                "phpmd/phpmd": "@stable",
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^9.6",
+                "platine-php/dev": "^2.0",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Platine\\Config\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "NGUEREZA Tony",
+                    "email": "nguerezatony@gmail.com",
+                    "homepage": "https://www.platine-php.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Platine Config is the library used to manage the application configuration based on differents loaders",
+            "keywords": [
+                "application",
+                "config",
+                "development",
+                "framework",
+                "loader",
+                "php",
+                "platine",
+                "website"
+            ],
+            "support": {
+                "issues": "https://github.com/platine-php/config/issues",
+                "source": "https://github.com/platine-php/config"
+            },
+            "time": "2025-09-18T05:09:52+00:00"
+        },
+        {
+            "name": "platine-php/http",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/platine-php/http.git",
+                "reference": "bf4a309f8a3277fdb0aab549ef1a6c66c8abf1d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/platine-php/http/zipball/bf4a309f8a3277fdb0aab549ef1a6c66c8abf1d3",
+                "reference": "bf4a309f8a3277fdb0aab549ef1a6c66c8abf1d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8",
+                "platine-php/stdlib": "^2.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.6",
+                "phpmd/phpmd": "@stable",
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^9.6",
+                "platine-php/dev": "^2.0",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Platine\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "NGUEREZA Tony",
+                    "email": "nguerezatony@gmail.com",
+                    "homepage": "https://www.platine-php.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Platine HTTP Message is the implementation of PSR 7",
+            "keywords": [
+                "application",
+                "development",
+                "framework",
+                "http",
+                "message",
+                "php",
+                "platine",
+                "website"
+            ],
+            "support": {
+                "issues": "https://github.com/platine-php/http/issues",
+                "source": "https://github.com/platine-php/http"
+            },
+            "time": "2025-09-18T05:10:40+00:00"
+        },
+        {
+            "name": "platine-php/stdlib",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/platine-php/stdlib.git",
+                "reference": "ebb22b24c64d5cf2b7c5f97babc5095c815a1750"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/platine-php/stdlib/zipball/ebb22b24c64d5cf2b7c5f97babc5095c815a1750",
+                "reference": "ebb22b24c64d5cf2b7c5f97babc5095c815a1750",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "@stable",
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^9.6",
+                "platine-php/dev": "^2.0",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Platine\\Stdlib\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "NGUEREZA Tony",
+                    "email": "nguerezatony@gmail.com",
+                    "homepage": "https://www.platine-php.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Platine Stdlib is a the collection of frequently used php features",
+            "keywords": [
+                "application",
+                "base",
+                "feature",
+                "framework",
+                "php",
+                "platine",
+                "stdlib"
+            ],
+            "support": {
+                "issues": "https://github.com/platine-php/stdlib/issues",
+                "source": "https://github.com/platine-php/stdlib"
+            },
+            "time": "2025-09-18T05:11:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "nguereza-tony/telegram-github-hook": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

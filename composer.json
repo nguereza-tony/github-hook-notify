@@ -1,0 +1,16 @@
+{
+    "name": "nguereza-tony/github-hook-app",
+    "description": "This app is used to notify telegram chat on Github Webhook",
+    "type": "project",
+    "require": {
+        "nguereza-tony/telegram-github-hook": "dev-develop"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NGUEREZA Tony",
+            "email": "nguerezatony@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
