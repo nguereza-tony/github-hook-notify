@@ -1,3 +1,6 @@
-/nbproject/private/
-
+/nbproject/
+.phpunit.result.cache
+.php_cs.cache
+*.sh
 /vendor/
+.idea
